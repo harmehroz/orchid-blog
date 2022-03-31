@@ -14,7 +14,7 @@ export default function Settings() {
   const [success, setSuccess] = useState(false);
 
   
-  const PF = "http://localhost:5000/images/"
+  const PF = "https://orchid-blog.herokuapp.com/images/"
 
   const handleSubmit = async (e) => {
     e.preventDefault();
